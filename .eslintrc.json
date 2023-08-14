@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "@next/eslint-plugin-next",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks",
+    "prettier",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    // I suggest you add those two rules:
+  }
 }

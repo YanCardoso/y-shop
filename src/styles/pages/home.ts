@@ -2,17 +2,19 @@ import { styled } from '..'
 
 export const HomeContainer = styled('main', {
   display: 'flex',
-  gap: '3rem',
   maxWidth: 'calc(100vw - ((100vw - 1180px) / 2))',
   minHeight: 656,
   marginLeft: 'auto',
-  width: '100%',
+  marginTop: '2rem'
+})
+
+export const ScrollContainer = styled('div', {
+  display: 'flex',
+  overflow: 'auto',
 })
 
 export const Product = styled('a', {
   display: 'flex',
-
-  padding: '0.25rem',
   position: 'relative',
   alignItems: 'center',
   justifyContent: 'center',
